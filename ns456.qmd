@@ -1,0 +1,33 @@
+---
+title: "ns_456"
+format: html
+editor: visual
+---
+
+# Population Structure, Demography and LD (NS 4, 5, 6) 
+
+## Setting up the environment and installing Slendr
+
+We will use a package that is called Slendr later in these exercises, so here is some code to install it and activate it, as it is probably unlikely that you have it already, but if you do skip this step. You can read about the, very cool, package here: slendr.net
+
+```{r}
+install.packages(slendr)
+library(slendr)
+setup_env()
+```
+
+When you have installed it once you can just run this step
+
+```{r}
+library(slendr)
+init_env()
+```
+
+Now everything is setup and initiated, we can open some libraries that are very useful, at least if you ask me:
+
+```{r}
+library(tidyverse)
+library(magrittr)
+```
+
+## 
